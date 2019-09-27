@@ -1,8 +1,11 @@
+@import url("https://use.typekit.net/lpj8efu.css?1569589518013");
 
 html,
 body {
+  font-family: adobe-caslon-pro, serif;
   font-size: 18px;
-  line-height: 130%;
+  line-height: 150%;
+  color: #333;
   margin: 0;
   padding: 0;
 }
@@ -12,14 +15,28 @@ body {
   padding: 0 2rem;
 }
 
+.wrap {
+  margin: 0 auto;
+  max-width: 40rem;
+}
+
 h2 {
   margin: 3rem 0 1.3rem 0;
 }
 
-ul, p {
+h1,
+h2,
+h3,
+strong {
+  color: black;
+  font-weight: 700;
+}
+
+ul,
+p {
   margin: 1.3rem 0;
 }
 
-p, li {
-  max-width: 34rem;
+li {
+  margin-bottom: 0.4rem;
 }
