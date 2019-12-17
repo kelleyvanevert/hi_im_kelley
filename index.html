@@ -17,7 +17,7 @@
         Here's a picture of me:
       </p>
       <p style="text-align: center;">
-        <img src="./_DSF7279.jpg" height="500px" />
+        <img id="me" style="max-width: 100%; display: block;" />
       </p>
 
       <h2>Personal info</h2>
@@ -45,15 +45,16 @@
           Lately, that's been Avishai Cohen (the live performances of
           <em>Seven Seas</em>, the album <em>Continuo</em>, &hellip; also note
           this is the bassist, not the trumpeteer I'm talking aobut), GoGo
-          Penguin, and Moderat. In high school I used to listen to a lot of
-          metal (primarily Meshuggah and Opeth)
+          Penguin, and Moderat. And Eefje de Visser always has a special place
+          in my heart :) In high school I used to listen to a lot of metal
+          (primarily Meshuggah and Opeth)
         </li>
         <li>
           I like thinking about (certain) philosophy and linguistic semantics
         </li>
         <li>
-          A few of my favorite words: <em>orthogonal</em>,
-          <em>semantics</em> (more will be added as I think of them)
+          A few of my favorite words: <em>orthogonal</em>, <em>semantics</em>,
+          <em>emphatic</em> (more will be added as I think of them)
         </li>
         <li>I like reading/watching sci-fi (J. G. Ballard, Mark Faber)</li>
         <li>I've dabbled in art</li>
@@ -63,5 +64,9 @@
         </li>
       </ul>
     </div>
+    <script>
+      document.getElementById("me").src =
+        "me" + Math.floor(Math.random() * 4 + 1) + ".jpg";
+    </script>
   </body>
 </html>
